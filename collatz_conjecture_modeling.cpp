@@ -19,6 +19,7 @@ int inputNumber;
 std::cout << "Your number: ";
 std:: cin >> inputNumber;
 runChecks(inputNumber);
+std::cin.ignore();
 return 0;
 }
 
